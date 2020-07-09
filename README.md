@@ -1,2 +1,2 @@
-# SocGen
+# MVC
 Assignment
