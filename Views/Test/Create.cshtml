@@ -1,0 +1,31 @@
+﻿@model  assignment.Models.Product
+
+@{
+}
+<form action="Create" method="post">
+    <div class="container">
+        <table class="table table-bordered">
+            <tr>
+                <td>ID</td>
+                <td><input type="number" name="Pid" /></td>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="Pname" /></td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td><input type="number" name="Price" /></td>
+            </tr>
+            <tr>
+                <td>Stock</td>
+                <td><input type="number" name="Stock" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Add" />
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>

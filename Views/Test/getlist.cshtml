@@ -1,0 +1,28 @@
+﻿@model List<assignment.Models.Product>
+@{
+    ViewBag.Title = "getlist";
+}
+
+<h2>getlist</h2>
+
+
+
+<div class="container">
+    <table class="table table-bordered">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>stock</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Pid</td>
+                <td>@item.Pname</td>
+                <td>@item.Price</td>
+                <td>@item.Stock</td>
+            </tr>
+        }
+    </table>
+</div>
